@@ -1,6 +1,6 @@
 import { PIKACHU_RECEIVED } from "../actions/action";
 
-const pokemon = (prevState = null, action) => {
+const pokemon = (prevState = {}, action) => {
   if (action.type === PIKACHU_RECEIVED) {
     return action.response;
   }
