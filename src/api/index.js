@@ -1,0 +1,1 @@
+fetchPikachu = () => null
